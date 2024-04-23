@@ -14,23 +14,19 @@ public class Main {
 		
 		rettangolo.base = scanner.nextInt();
 		
-		System.out.println("il valore della base del rettangolo è: " + rettangolo.base);
+		System.out.println("Il valore della base del rettangolo è: " + rettangolo.base);
 		
 		System.out.print("Inserisci un valore per l'altezza: ");
 		
 		rettangolo.altezza = scanner.nextInt();
 		
-		System.out.println("il valore dell'altezza del rettangolo è: " + rettangolo.altezza);
+		System.out.println("Il valore dell'altezza del rettangolo è: " + rettangolo.altezza);
 		
 		scanner.close();
 		
-		int area = rettangolo.calcolaArea();
+		System.out.println("Il valore dell'area è: " + rettangolo.calcolaArea());
 		
-		System.out.println("Area: " + area);
-		
-		int perimetro = rettangolo.calcolaPerimetro();
-		
-		System.out.println("Perimetro: " + perimetro);
+		System.out.println("Il valore del perimetro è: " + rettangolo.calcolaPerimetro());
 		
 	}
 
